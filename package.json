@@ -1,0 +1,25 @@
+{
+  "name": "playwrightframework",
+  "version": "1.0.0",
+  "description": "* Install NodeJS and NPM pakcage manager.\r * Code Editor of your choice e.g. Visual Studio Code\r   * Install [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) VS Code extension from Microsoft to make linting work in IDE\r * GIT Client (for remote tracking)\r * GIT Bash terminal (for Windows)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KSekhar1996/PlaywrightFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KSekhar1996/PlaywrightFramework/issues"
+  },
+  "homepage": "https://github.com/KSekhar1996/PlaywrightFramework#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.13.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
