@@ -31,7 +31,6 @@ export default defineConfig({
     baseURL: 'https://demo.nopcommerce.com',
 
     headless: false,
-    viewport: { width: 1536, height: 864},
 
     /* Automatically take screenshots only when a test fails */
     screenshot: 'only-on-failure',
@@ -44,7 +43,9 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'] },
+      use: { ...devices['Desktop Chrome'] ,
+        viewport: { width: 1920, height: 1080 }
+      },
     },
 
     {

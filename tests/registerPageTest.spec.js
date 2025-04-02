@@ -28,7 +28,6 @@ test.describe('User Registration Test Coverage', () => {
     })
 
     test.afterEach(async ({ page }) => {
-        //await page.close();
-        await page.waitForTimeout(5000)
+        await page.context().clearCookies();
     });
 })
